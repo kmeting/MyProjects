@@ -1,0 +1,52 @@
+﻿@model IEnumerable<AracKiralama.Entities.Satis>
+
+@{
+    ViewData["Title"] = "Kiralamalar";
+}
+
+<h1>Kiralamalar</h1>
+
+<p>
+    <a class="btn btn-outline-primary" asp-action="Create">Yeni Ekle</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.KiralamaFiyati)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KiralamaTarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Arac)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Musteri)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.KiralamaFiyati)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KiralamaTarihi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Arac.Modeli)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Musteri.Adi)
+            </td>
+            <td>
+                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Düzenle</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
