@@ -1,0 +1,17 @@
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\bin\Debug\net7.0\AracKiralama.Data.deps.json
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\bin\Debug\net7.0\AracKiralama.Data.runtimeconfig.json
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\bin\Debug\net7.0\AracKiralama.Data.dll
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\bin\Debug\net7.0\AracKiralama.Data.pdb
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\bin\Debug\net7.0\AracKiralama.Entities.dll
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\bin\Debug\net7.0\AracKiralama.Entities.pdb
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\obj\Debug\net7.0\AracKiralama.Data.csproj.AssemblyReference.cache
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\obj\Debug\net7.0\AracKiralama.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\obj\Debug\net7.0\AracKiralama.Data.AssemblyInfoInputs.cache
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\obj\Debug\net7.0\AracKiralama.Data.AssemblyInfo.cs
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\obj\Debug\net7.0\AracKiralama.Data.csproj.CoreCompileInputs.cache
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\obj\Debug\net7.0\AracKiralama.Data.csproj.CopyComplete
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\obj\Debug\net7.0\AracKiralama.Data.dll
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\obj\Debug\net7.0\refint\AracKiralama.Data.dll
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\obj\Debug\net7.0\AracKiralama.Data.pdb
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\obj\Debug\net7.0\AracKiralama.Data.genruntimeconfig.cache
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Data\obj\Debug\net7.0\ref\AracKiralama.Data.dll

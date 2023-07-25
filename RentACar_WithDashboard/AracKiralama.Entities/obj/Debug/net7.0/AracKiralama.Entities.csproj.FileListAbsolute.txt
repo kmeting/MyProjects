@@ -1,0 +1,14 @@
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Entities\bin\Debug\net7.0\AracKiralama.Entities.deps.json
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Entities\bin\Debug\net7.0\AracKiralama.Entities.runtimeconfig.json
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Entities\bin\Debug\net7.0\AracKiralama.Entities.dll
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Entities\bin\Debug\net7.0\AracKiralama.Entities.pdb
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Entities\obj\Debug\net7.0\AracKiralama.Entities.csproj.AssemblyReference.cache
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Entities\obj\Debug\net7.0\AracKiralama.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Entities\obj\Debug\net7.0\AracKiralama.Entities.AssemblyInfoInputs.cache
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Entities\obj\Debug\net7.0\AracKiralama.Entities.AssemblyInfo.cs
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Entities\obj\Debug\net7.0\AracKiralama.Entities.csproj.CoreCompileInputs.cache
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Entities\obj\Debug\net7.0\AracKiralama.Entities.dll
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Entities\obj\Debug\net7.0\refint\AracKiralama.Entities.dll
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Entities\obj\Debug\net7.0\AracKiralama.Entities.pdb
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Entities\obj\Debug\net7.0\AracKiralama.Entities.genruntimeconfig.cache
+C:\Users\metin\Desktop\staj\AracKiralama\AracKiralama.Entities\obj\Debug\net7.0\ref\AracKiralama.Entities.dll
