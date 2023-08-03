@@ -1,0 +1,76 @@
+﻿@model AracKiralama.WebUI.Areas.Admin.Models.Satis.SatisAra
+@{
+    ViewData["Title"] = "Ara";
+}
+
+<div class="container px-4 px-lg-5 mt-5" style="margin-top: -30px;">
+    <div class="row gx-4 gx-lg-5 justify-content-start vh-100">
+        <!-- justify-content-start ile sol üst konuma taşıyoruz -->
+        <div class="col-4 align-self-start">
+            <!-- align-self-start ile sol üst konuma taşıyoruz -->
+            <div class="card-body p-4 d-flex align-items-start justify-content-center flex-column">
+                <!-- align-items-start ile sol üst konuma taşıyoruz -->
+                <div class="text-center">
+                    <div class="d-flex justify-content-center small text-warning mb-2">
+                        <div class="bi-star-fill"></div>
+                        <div class="bi-star-fill"></div>
+                        <div class="bi-star-fill"></div>
+                        <div class="bi-star-fill"></div>
+                        <div class="bi-star-fill"></div>
+                    </div>
+                    <div class="p-3 mt-4" style="background-color: #ffff99; border-radius: 8px;">
+                        <div class="mb-3">
+                            <h4 class="mb-0" style="font-size: 24px;">Ad-Soyad:</h4>
+                            <span style="font-size: 20px;">@Model.AdSoyad</span>
+                        </div>
+                        <div class="mb-3">
+                            <h4 class="mb-0" style="font-size: 24px;">TC Kimlik No:</h4>
+                            <span style="font-size: 20px;">@Model.Tc</span>
+                        </div>
+
+                        <div class="mt-4">
+                            <h4 class="mb-3" style="font-size: 24px;">Kiralık Bilgileri:</h4>
+                            <ul style="list-style-type: none; padding-left: 0;">
+                                @foreach (var item in Model.KiralikBilgi)
+                                {
+                                    <li style="font-size: 20px;">
+                                        <strong>Kiralama Tarihi:</strong> @item.KiralamaTarihi
+                                    </li>
+                                    <li style="font-size: 20px;">
+                                        <strong>İade Tarihi:</strong> @item.IadeTarihi
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                        
+@*                    <div class="border border-dark p-3" style="margin-top: 20px;">
+                        <!-- Her bir özellik arasında boşluk bırakmak için "margin-top" değeri ayarlandı -->
+                        <div>
+                            <h5 style="font-size: 24px; display: inline-block;">Soyad:</h5> <!-- Yazı tipi büyüklüğü değiştirildi ve yan yana yazdırmak için "display: inline-block;" eklendi -->
+                            <span>@Model.Soyadi</span>
+                        </div>
+                    </div>*@
+@*                    <div class="border border-dark p-3" style="margin-top: 20px;">
+                        <!-- Her bir özellik arasında boşluk bırakmak için "margin-top" değeri ayarlandı -->
+                        <div>
+                            <h5 style="font-size: 24px; display: inline-block;">Tc No:</h5> <!-- Yazı tipi büyüklüğü değiştirildi ve yan yana yazdırmak için "display: inline-block;" eklendi -->
+                            <span>@Model.TcNo</span>
+                        </div>
+                        <div class="border border-dark p-3" style="margin-top: 20px;">
+                            <div>
+                                <h5 style="font-size: 24px; display: inline-block;">Araç Kiralama Sayısı:</h5>
+                                <span>@Model.kiralananAracSayısı</span>
+                            </div>
+                        </div>
+                    </div>*@
+                </div>
+            </div>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            </div>
+        </div>
+    </div>
+</div>
