@@ -1,0 +1,29 @@
+﻿@model Musteri
+<div style="width: 300px;">
+    <h3>Yeni Müşteri Ekle</h3>
+    <form asp-action="Kaydet">
+        <div style="display: flex; flex-direction: column; gap: 5px;">
+            <label for="tcNo">Tc NO:</label>
+            <input type="text" id="tcNo" value="@TempData["TcNo"]" asp-for="TcNo" required />
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 5px;">
+            <label for="adi">Ad:</label>
+            <input type="text" id="adi" asp-for="Adi" required />
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 5px;">
+            <label for="soyadi">Soyad:</label>
+            <input type="text" id="soyadi" asp-for="Soyadi" required />
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 5px;">
+            <label for="email">Email:</label>
+            <input type="email" id="email" asp-for="Email" required />
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 5px;">
+            <label for="aracId">AracId:</label>
+            <input type="text" id="aracId" asp-for="AracId" required />
+        </div>
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <button type="submit">Kaydet</button>
+        </div>
+    </form>
+</div>

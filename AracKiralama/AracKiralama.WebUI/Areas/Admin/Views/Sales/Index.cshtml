@@ -1,0 +1,65 @@
+﻿@model IEnumerable<AracKiralama.Entities.Satis>
+
+@{
+    ViewData["Title"] = "Kiralamalar";
+}
+
+<h1>Kiralamalar</h1>
+
+<p>
+    <a class="btn btn-outline-primary" asp-action="Create">Yeni Ekle</a>
+</p>
+<div class="col-2 mb-0 mb-lg-0 ms-lg-auto d-flex justify-content-end" style="position: absolute; top: 0; right: 0;">
+    <form class="d-flex" role="search" asp-action="Ara" asp-controller="Sales" method="get">
+        <input name="q" type="search" class="form-control form-control-dark text-bg-dark" placeholder="Ara..." aria-label="Search">
+    </form>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.KiralamaFiyati)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KiralamaTarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.İadeTarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Arac)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Musteri)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.KiralamaFiyati)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.KiralamaTarihi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.İadeTarihi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Arac.Modeli)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Musteri.Adi)
+                </td>
+                <td>
+                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Düzenle</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Sil</a>
+                </td>
+            </tr>
+        }
+       
+    </tbody>
+</table>
